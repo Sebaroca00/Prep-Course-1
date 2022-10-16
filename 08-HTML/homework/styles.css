@@ -1,0 +1,20 @@
+h1{
+   color: darkred;
+}
+img{
+   width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500;
+    background-color: rgb(189, 191, 65)
+            }
+            #spanId{
+                font-size: 18px;
+                margin: 50px;
+            }
+            .divClass{
+                padding: 50px;
+                border: 10px  solid rgb(0, 13, 255);
+            }
+        </style>
