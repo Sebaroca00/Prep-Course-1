@@ -11,7 +11,8 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-  class Usuario {
+ 
+ class Usuario {
     constructor(opciones){
       this.usuario = opciones.usuario;
       this.nombre = opciones.nombre;
@@ -97,6 +98,7 @@ function agregarMetodo() {
   //La función agrega un método "datos"  
   //a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
   //Ej: "Juan, 22 años"
+
   Persona.prototype.datos = function(){
     return this.nombre + ', ' + this.edad + ' años'
   }

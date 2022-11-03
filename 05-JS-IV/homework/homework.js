@@ -9,6 +9,7 @@ function crearGato (nombre, edad) {
   //que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+
   var gato = {
     nombre: nombre,
     edad: edad,
@@ -23,7 +24,8 @@ function crearGato (nombre, edad) {
 function agregarPropiedad (objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
   // Devuelve el objeto
-  // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
+  // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor 
+  // del argumento llamado "property" (una cadena/string)
   // Tu código:
   objeto[property] = null;
   return objeto;
@@ -159,7 +161,7 @@ function agregarMetodoCalculoDescuento (producto) {
   // Devuelve el objeto "producto" al final de la función
   // Ejemplo:
   // producto.precio -> 20
-  // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
+  // producto.porcentajeDe      Descuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
   producto.calcularPrecioDescuento = function(){
